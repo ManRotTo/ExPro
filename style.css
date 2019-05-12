@@ -38,9 +38,6 @@ header {
 	flex-direction: row;
 	justify-content: center;
 }
-header a {
-	margin-top: 1.5rem;
-}
 .headername {
 	display: flex;
 	flex-direction: column;
