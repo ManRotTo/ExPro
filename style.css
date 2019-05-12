@@ -1,0 +1,317 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+* {
+	transition: all .3s;
+}
+
+body {
+	background: #7ddbea url(background.jpg);
+	font-family: 'Georgia', sans-serif;
+	color: white;
+	background-attachment: fixed;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+  	color: white; 
+}
+a:visited {
+	color: white;
+}
+a:hover {
+  	 color: white;
+  	 text-shadow: 0.2rem 0.2rem 0.2rem black;
+
+}
+a:active {
+ 	 color: white;
+}
+
+header {
+	height: 6rem;
+	background: #2482c7;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+header a {
+	margin-top: 1.5rem;
+}
+.headername {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 2.6rem;
+	text-shadow: 0.2rem 0.2rem 0.2rem black;
+	margin-right: 7rem;
+	margin-left: 8rem;
+}
+.headerlogo {
+	background: url(logo.jpg);
+	background-size: 6rem 6rem;
+	height: 6rem;
+	width: 6rem;
+	margin-right: 10rem;
+
+}
+.headerbuttons{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	font-size: 0.95rem;
+	margin-bottom: 1rem;
+
+}
+.headerbuttons div{
+	margin-right: 0.1rem;
+}
+.headerminilogo1{
+	background: url(lupa.png);
+	background-size: 1.2rem 1.2rem;
+	height: 1.2rem;
+	width: 1.2rem;
+	margin-left: 1rem;
+}
+.headerminilogo2{
+	background: url(glass.png);
+	background-size: 1.2rem 1.2rem;
+	height: 1.2rem;
+	width: 1.2rem;
+	margin-left: 1rem;
+}
+	
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.mainbuttonstop {
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: black;
+}
+.mainbuttonstop a {
+  	color: black; 
+}
+.mainbuttonstop a:hover {
+  	 color: black;
+  	 border bottom: 2px;
+  	 text-shadow: 0px 0px 1px black;
+}
+
+.mainbuttonstop div {
+	padding-right:4rem ;
+	padding-left:4rem ;
+	margin-top: 0.6rem;
+}
+.mainslider {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: 5%;
+	height: 22rem;
+	width: 90%;
+	background: #2482c7;
+}
+.mainbuttonsbottomsearch {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 2rem;
+
+}
+.mainbuttonsbottomsearch div {
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 1.3rem;
+	padding-left: 15rem;
+	padding-right: 15rem;
+	background: #2482c7;
+	border-radius: 1rem;
+}
+
+.mainbuttonsbottomvospo {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	margin-top: 2rem;
+
+}
+.mainbuttonsbottomvospo div {
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 1.3rem;
+	padding-left: 13.7rem;
+	padding-right: 13.7rem;
+	background: #2482c7;
+	border-radius: 1rem;
+	margin-right: 2rem;
+	margin-left: 2rem;
+}
+.mainsearch {
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	margin-top: 2rem;
+}
+.mainsearch div {
+	height: 35rem;
+	width: 67rem;
+	background: #2482c7;
+	border-radius: 1rem;
+	margin: 2rem;
+}
+.mainbuttonsbottomfixed {
+	position: fixed;
+	display: block;
+	right: 4rem;
+	bottom: 7rem;
+	text-align: center;
+
+}
+.mainbuttonsbottomfixed div {
+	height: 4rem;
+	width: 4rem;
+	margin-left: 0.8rem;
+	background: url(bot.jpg);
+	background-size: 4rem 4rem;
+}
+footer {
+    
+    left: 0; bottom: 0; 
+    background: #2482c7;
+    width: 100%;
+    padding-top: 0.4rem;
+
+}
+footer div {
+
+    padding-bottom: 0.1rem;
+}
+.footerinfo {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.footerinfo div{
+	padding-right: 2rem;
+}
+.footercopyrite {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 0.4rem;
+}
+
+.slider {
+  position: relative;
+  width: 67rem;
+  margin: 30px auto;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+  border-radius: 1rem;
+}
+
+.slider input[name="switch"] {
+  display: none;
+
+}
+
+.switch {
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  text-align: center;
+  width: 100%;
+}
+
+.switch label {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  margin: 0 3px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+  border-radius: 50%;
+  border: 5px solid #2482c7;
+  background-color: #2482c7;
+}
+
+#btn1:checked~.switch label[for="btn1"] {
+  background-color: white;
+}
+
+#btn2:checked~.switch label[for="btn2"] {
+  background-color: white;
+}
+
+#btn3:checked~.switch label[for="btn3"] {
+  background-color: white;
+}
+
+.slider-inner {
+  overflow: hidden;
+}
+
+.slides {
+  width: 300%;
+  transition: all 0.5s;
+}
+
+.slides img {
+ width: 67rem;
+  height: 20rem;
+  float: left;
+}
+
+#btn1:checked~slider-inner slides {
+  transform: translate(0);
+}
+
+#btn2:checked~.slider-inner .slides {
+  transform: translate(-67rem);
+}
+
+#btn3:checked~.slider-inner .slides {
+  transform: translate(-134rem);
+}
+img{
+	object-fit: contain;
+}
+.maincard {
+	color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	width: 67rem;
+	margin-left: 25rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	background: white;
+	padding: 1rem;
+	border-radius: 1rem;
+}
+.maincard p {
+	width: 50rem;
+}
+.maincard img{
+	object-fit: contain;
+	height: 15rem;
+	width: 15rem;	
+}
+.maincard a {
+  	color: black; 
+  	text-decoration: underline;
+}
+.maincard a:hover {
+  	 color: black;
+  	 border bottom: 2px;
+  	 text-shadow: 0px 0px 1px black;
+}
