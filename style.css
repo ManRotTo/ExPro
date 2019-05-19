@@ -168,6 +168,7 @@ main {
 	margin: 2rem;
 }
 .mainbuttonsbottomfixed {
+	border-radius: 1rem; 
 	position: fixed;
 	display: block;
 	right: 4rem;
@@ -178,7 +179,6 @@ main {
 .mainbuttonsbottomfixed div {
 	height: 4rem;
 	width: 4rem;
-	margin-left: 0.8rem;
 	background: url(bot.jpg);
 	background-size: 4rem 4rem;
 }
@@ -214,6 +214,7 @@ footer div {
   margin: 30px auto;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
   border-radius: 1rem;
+  background-color: #2482c7;
 }
 
 .slider input[name="switch"] {
